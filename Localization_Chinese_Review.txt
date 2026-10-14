@@ -1,0 +1,1162 @@
+﻿《风暴之后：一座灯塔的故事》 —— 中文本地化校对稿
+After the Storm: A Lighthouse Story - Chinese localization for review
+
+请只修改每一段“中文:”下面的文字，英文仅供参考。
+  · 不要改动以 === 开头的行（用于把修改导回游戏）。
+  · 保留 {0}、{1} 这类占位符（游戏会替换成数字）。
+  · 保留 <size=..>、</size>、<b>、<cspace=..> 等尖括号标签（控制字号、粗体和字距）。
+  · 换行就是游戏里的换行；正文里的空行表示分段。
+  · 故事背景：1891–1904 年，守塔人汤姆（Tom）、妻子艾达（Ada）、女儿雷恩（Wren）。大部分笔记是艾达的口吻。
+  · 人名请全文统一：汤姆 / 艾达 / 雷恩。
+Please edit only the text under each "中文:" label. Keep the === lines, the {0}/{1} placeholders and the <...> tags.
+
+一、界面与提示文字（UI strings）共 57 条
+
+=== S01  board.day ===
+EN:
+Day
+中文:
+白天
+
+=== S02  board.golden ===
+EN:
+Golden Hour
+中文:
+黄金时刻
+
+=== S03  board.night ===
+EN:
+Night
+中文:
+夜晚
+
+=== S04  board.storm ===
+EN:
+Storm
+中文:
+风暴
+
+=== S05  board.music ===
+EN:
+Music
+中文:
+音乐
+
+=== S06  board.musicoff ===
+EN:
+Music off
+中文:
+关闭音乐
+
+=== S07  board.hide ===
+EN:
+Hide signs
+中文:
+隐藏标牌
+
+=== S08  board.show ===
+EN:
+Show signs
+中文:
+显示标牌
+
+=== S09  board.hidehint ===
+EN:
+Hide signs for photos
+中文:
+拍照时隐藏标牌
+
+=== S10  notice ===
+EN:
+A page
+is missing.
+<size=65%>Can you find
+out why?</size>
+中文:
+有一页
+不见了。
+<size=65%>你能查出
+原因吗？</size>
+
+=== S11  notice.clues ===
+EN:
+Clues found: {0} / {1}
+中文:
+已找到线索：{0} / {1}
+
+=== S12  photo.house ===
+EN:
+<b>PHOTO SPOT</b>
+<size=70%>The keeper's house. Try golden hour.</size>
+中文:
+<b>拍照点</b>
+<size=70%>守塔人的家。试试黄金时刻。</size>
+
+=== S13  photo.swing ===
+EN:
+<b>PHOTO SPOT</b>
+<size=70%>Wren's swing. Sit and look out to sea.</size>
+中文:
+<b>拍照点</b>
+<size=70%>雷恩的秋千。坐下来眺望大海。</size>
+
+=== S14  photo.cliffs ===
+EN:
+<b>PHOTO SPOT</b>
+<size=70%>Waves on the west cliffs. Best in a storm.</size>
+中文:
+<b>拍照点</b>
+<size=70%>西崖的海浪。风暴时最美。</size>
+
+=== S15  photo.gallery ===
+EN:
+<b>PHOTO SPOT</b>
+<size=70%>From the gallery. Watch the beam at night.</size>
+中文:
+<b>拍照点</b>
+<size=70%>从灯廊远眺。夜里看灯光扫过。</size>
+
+=== S16  ui.footer ===
+EN:
+(grab the page to carry it; let go and it fades)
+Stories found: {0} / {1}
+中文:
+（抓住纸页可以带着走，松手它就会淡去）
+已发现的故事：{0} / {1}
+
+=== S17  sea.found ===
+EN:
+Sea glass found
+{0} / {1}
+中文:
+已找到的海玻璃
+{0} / {1}
+
+=== S18  sea.all ===
+EN:
+All the sea glass!
+{0} / {1}
+中文:
+全部海玻璃都找到了！
+{0} / {1}
+
+=== S19  gb.heading ===
+EN:
+Visitors
+中文:
+访客
+
+=== S20  gb.first ===
+EN:
+Be the first to sign.
+中文:
+来做第一个签名的人吧。
+
+=== S21  gb.signed ===
+EN:
+{0} signed this visit
+中文:
+本次已有 {0} 人签名
+
+=== S22  i.Window ===
+EN:
+Window
+中文:
+窗户
+
+=== S23  i.Door ===
+EN:
+Door
+中文:
+门
+
+=== S24  i.Sit ===
+EN:
+Sit
+中文:
+坐下
+
+=== S25  i.Sit by the fire ===
+EN:
+Sit by the fire
+中文:
+坐在炉火边
+
+=== S26  i.Sit on the sofa ===
+EN:
+Sit on the sofa
+中文:
+坐在沙发上
+
+=== S27  i.Sit in the window ===
+EN:
+Sit in the window
+中文:
+坐在窗边
+
+=== S28  i.Light / put out the fire ===
+EN:
+Light / put out the fire
+中文:
+点火／灭火
+
+=== S29  i.Sea glass ===
+EN:
+Sea glass
+中文:
+海玻璃
+
+=== S30  i.Message in a bottle ===
+EN:
+Message in a bottle
+中文:
+漂流瓶
+
+=== S31  i.Go down ===
+EN:
+Go down
+中文:
+下去
+
+=== S32  i.Go up ===
+EN:
+Go up
+中文:
+上去
+
+=== S33  i.Watch the sunset ===
+EN:
+Watch the sunset
+中文:
+看日落
+
+=== S34  i.Put the note away ===
+EN:
+Put the note away
+中文:
+收起纸条
+
+=== S35  i.Sign the guestbook ===
+EN:
+Sign the guestbook
+中文:
+在留言簿上签名
+
+=== S36  i.Sit on the blanket ===
+EN:
+Sit on the blanket
+中文:
+坐在毯子上
+
+=== S37  i.Sit on the swing ===
+EN:
+Sit on the swing
+中文:
+坐上秋千
+
+=== S38  i.Climb the lighthouse ===
+EN:
+Climb the lighthouse
+中文:
+登上灯塔
+
+=== S39  i.Sound the foghorn ===
+EN:
+Sound the foghorn
+中文:
+拉响雾笛
+
+=== S40  i.Turn dial ===
+EN:
+Turn dial
+中文:
+转动密码盘
+
+=== S41  i.Hide signs for photos ===
+EN:
+Hide signs for photos
+中文:
+拍照时隐藏标牌
+
+=== S42  i.Day ===
+EN:
+Day
+中文:
+白天
+
+=== S43  i.Golden Hour ===
+EN:
+Golden Hour
+中文:
+黄金时刻
+
+=== S44  i.Night ===
+EN:
+Night
+中文:
+夜晚
+
+=== S45  i.Storm ===
+EN:
+Storm
+中文:
+风暴
+
+=== S46  i.Music ===
+EN:
+Music
+中文:
+音乐
+
+=== S47  i.Language ===
+EN:
+Language
+中文:
+语言
+
+=== S48  p.Grab the page ===
+EN:
+Grab the page
+中文:
+拿起纸页
+
+=== S49  p.Pick up ===
+EN:
+Pick up
+中文:
+拿起
+
+=== S50  p.Move chair ===
+EN:
+Move chair
+中文:
+挪动椅子
+
+=== S51  p.Move stool ===
+EN:
+Move stool
+中文:
+挪动凳子
+
+=== S52  p.Bird seed ===
+EN:
+Bird seed
+中文:
+鸟食
+
+=== S53  p.Fly the kite ===
+EN:
+Fly the kite
+中文:
+放风筝
+
+=== S54  memory.title ===
+EN:
+After the Storm
+<size=42%><cspace=0.3em>A LIGHTHOUSE STORY</cspace></size>
+中文:
+风暴之后
+<size=42%><cspace=0.3em>一座灯塔的故事</cspace></size>
+
+=== S55  memory.1 ===
+EN:
+Three days the gale blew,
+and the sea roared over the rocks white as froth,
+and still the light did not go out.
+中文:
+大风刮了整整三天，
+海浪咆哮着漫过礁石，白得像泡沫，
+可灯塔的光，一刻也没有熄灭。
+
+=== S56  memory.2 ===
+EN:
+Storms take things.  Boats, bells, words...
+A whole night was cut from the keeper’s log,
+and no one in this house would say why.
+中文:
+风暴会带走很多东西：船、钟，还有话语。
+守塔日志里，整整一夜被裁去了，
+这座房子里却没有人肯说为什么。
+
+=== S57  memory.3 ===
+EN:
+We kept this light for thirteen years.  
+The door is open. Come in, and find
+what the storm left behind.
+<size=80%>- Ada</size>
+中文:
+我们守了这盏灯十三年。
+门开着。请进来，
+找一找风暴留下了什么。
+<size=80%>—— 艾达</size>
+
+
+二、故事笔记（Notes）共 50 条 —— 每条有三部分：互动提示 / 标题 / 正文
+
+=== N00  House Interior/Mystery/Mystery Notice ===
+[互动提示 / prompt] EN: Read the note
+中文:
+阅读纸条
+[标题 / title] EN: A Torn Page
+中文:
+一页被撕走了
+[正文 / body] EN:
+Whoever finds this: the Keeper's Log on the study table jumps from the 1st to the 3rd of November 1893, the night of the great storm. The page in between has been cut out.
+
+A keeper who loses a page of his log loses his post. Somebody in this house took that risk, and hid the reason.
+
+Find out why. Start at the logbook.
+中文:
+致发现这张纸条的人：书房桌上的《守塔日志》从1893年11月1日直接跳到了11月3日，那正是大风暴之夜。中间那一页被人裁走了。
+
+守塔人如果丢了一页日志，就会丢掉差事。这座房子里有人冒了这个险，并把原因藏了起来。
+
+请查明真相。从那本日志开始。
+
+=== N01  House Interior/Mystery/Clue 1 Stub ===
+[互动提示 / prompt] EN: Read the note
+中文:
+阅读纸条
+[标题 / title] EN: Clue 1 of 4: The Stub
+中文:
+线索 1／4：残根
+[正文 / body] EN:
+Run a finger down the spine of the log and you can feel the stub where the page was. Cut clean and straight, with a sharp sailor's knife.
+
+In the margin of the next page someone has written in pencil, very small:
+
+'Ask the Kittiwake.'
+中文:
+用手指沿着日志的书脊摸下去，能摸到被裁掉那一页留下的残根。切口干净笔直，用的是一把锋利的水手刀。
+
+下一页的页边上，有人用铅笔写了一行很小的字：
+
+“去问三趾鸥号。”
+
+=== N02  House Interior/Mystery/Clue 2 Kittiwake ===
+[互动提示 / prompt] EN: Read the note
+中文:
+阅读纸条
+[标题 / title] EN: Clue 2 of 4: The Mate's Letter
+中文:
+线索 2／4：大副的信
+[正文 / body] EN:
+Folded under the model's hull, a letter from the mate of the schooner Kittiwake, dated 5th November 1893:
+
+'...we shall never forget the keeper who rowed out to us through that sea, alone, with a lantern in the bow. SEVEN souls owe him their lives.'
+
+But a keeper must never leave his light. So who kept it burning?
+
+Remember: SEVEN souls. Then look where the keeper's wife does her writing.
+中文:
+模型船身下面压着一封信，是纵帆船三趾鸥号的大副写的，日期是1893年11月5日：
+
+“……我们永远不会忘记那位守塔人，他独自一人划着小船、船头挂着一盏提灯，穿过那样的海浪来救我们。我们七个人的性命都是他给的。”
+
+可是守塔人绝不能离开他的灯。那一夜，是谁让灯一直亮着？
+
+记住：七个人。然后去看看守塔人的妻子写字的地方。
+
+=== N03  House Interior/Mystery/Clue 3 Letter ===
+[互动提示 / prompt] EN: Read the note
+中文:
+阅读纸条
+[标题 / title] EN: Clue 3 of 4: The Unsent Letter
+中文:
+线索 3／4：没寄出的信
+[正文 / body] EN:
+A letter to Leith, never sent:
+
+'I was alone in the lantern from nine until dawn. Three times the wick charred and three times I trimmed it, with my hands shaking, and the light held. If the inspector learns that Tom left the tower, he loses his post and we lose our home. So there is no page for that night.'
+
+Remember: THREE wicks. Wren kept her own record. She hides her secrets where the time is kept.
+中文:
+一封写给利斯的信，从未寄出：
+
+“从晚上九点到天亮，灯室里只有我一个人。灯芯三次结了焦，我三次用发抖的手把它修剪好，灯一直没有灭。如果督察知道汤姆离开了灯塔，他就会丢掉差事，我们也会失去这个家。所以那一夜没有日志。从来就没有。”
+
+记住：三次灯芯。雷恩也有她自己的记录。她把秘密藏在计时的地方。
+
+=== N04  House Interior/Mystery/Clue 4 Clock ===
+[互动提示 / prompt] EN: Read the note
+中文:
+阅读纸条
+[标题 / title] EN: Clue 4 of 4: Wren's Secret
+中文:
+线索 4／4：雷恩的秘密
+[正文 / body] EN:
+A child's note
+
+'PAPA CAME HOME AT FIVE IN THE MORNING WET THROUGH. MAMA DID NOT BURN THE PAGE. SHE LOCKED IT IN THE TRUNK AT THE FOOT OF THEIR BED. THE NUMBERS ARE THE SOULS, THE WICKS AND THE HOUR.'
+
+Remember: FIVE o'clock. The trunk is upstairs.
+中文:
+钟摆后面，有一行孩子写的大字：
+
+“爸爸早上五点回家，全身湿透了。妈妈没有烧掉那一页。她把它锁在他们床尾的箱子里。密码是：人数、灯芯，还有钟点。”
+
+记住：五点钟。箱子在楼上。
+
+=== N05  House Interior/Mystery/Trunk Lock/The Missing Page ===
+[互动提示 / prompt] EN: Read the missing page
+中文:
+阅读失落的一页
+[标题 / title] EN: Keeper's Log, 2nd November 1893
+中文:
+守塔日志，1893年11月2日
+[正文 / body] EN:
+Wind WSW, a whole gale, sea very high. 8.40pm a schooner's lights seen close under the reef, then lost.
+
+T. took the boat off the slip, against every regulation, and went out to her alone. A. kept the light. Wick trimmed 9.50pm, 1.15am and 3.30am. Lamp burned all night without fault.
+
+5.05am T. returned with the seven men of the schooner Kittiwake. Every soul saved.
+
+This page is cut from the log by my own hand, so that a brave man keeps his post. If you have found it, keep our secret.
+
+Ada
+中文:
+西南偏西风，烈风，海浪极高。晚上8点40分，看见一艘纵帆船的灯火逼近暗礁，随后消失。
+
+汤姆违反一切规定，把小船推下滑道，独自出海救援。艾达守灯。灯芯修剪于晚上9点50分、凌晨1点15分和3点30分。灯整夜燃烧，毫无差错。
+
+凌晨5点05分，汤姆带着三趾鸥号的七名船员回来了。无一人遇难。
+
+这一页由我亲手从日志中裁下，好让一个勇敢的人保住他的差事。如果你找到了它，请替我们保守这个秘密。
+
+艾达
+
+=== N06  Discovery/Bottles/Bottle 1 ===
+[互动提示 / prompt] EN: Message in a bottle
+中文:
+漂流瓶
+[标题 / title] EN: 3rd March 1891
+中文:
+1891年3月3日
+[正文 / body] EN:
+Arrived with Tom and little Wren on the supply boat. The tower is taller than the letters said. Tom lit the lamp at dusk and the beam swept clean across the water to the horizon. Wren says the lighthouse is breathing. I think she is right.
+中文:
+和汤姆还有小雷恩一起搭补给船来到这里。灯塔比信里说的还要高。黄昏时汤姆点亮了灯，光束干干净净地扫过水面，一直照到天边。雷恩说灯塔在呼吸。我想她说得对。
+
+=== N07  Discovery/Bottles/Bottle 2 ===
+[互动提示 / prompt] EN: Message in a bottle
+中文:
+漂流瓶
+[标题 / title] EN: 14th May 1891
+中文:
+1891年5月14日
+[正文 / body] EN:
+Robins have taken to the gallery rail, six of them most mornings and bold as anything. Sit still with a handful of seed and they come right down to your boots. Wren has named every one. I cannot tell them apart, which she finds very funny.
+中文:
+知更鸟占领了灯廊的栏杆，大多数早上有六只，胆子大得很。手里捧一把种子静静坐着，它们就会一直落到你的靴子边。雷恩给每一只都起了名字。我分不清它们，她觉得这很好笑。
+
+=== N08  Discovery/Bottles/Bottle 3 ===
+[互动提示 / prompt] EN: Message in a bottle
+中文:
+漂流瓶
+[标题 / title] EN: 2nd November 1893
+中文:
+1893年11月2日
+[正文 / body] EN:
+Three days of storm. The sea came over the west rocks white as milk and the spray reached the cliff top. Tom kept the foghorn going all night, two notes, high then low, until his arms shook. In the morning a schooner sent a boat ashore just to thank us.
+中文:
+风暴持续了三天。海水漫过西边的礁石，白得像牛奶，浪花一直溅到悬崖顶上。汤姆整夜拉着雾笛，两个音，一高一低，直到他的胳膊都在发抖。早上，一艘纵帆船专门派了一条小船上岸，只为向我们道谢。
+
+=== N09  Discovery/Bottles/Bottle 4 ===
+[互动提示 / prompt] EN: Message in a bottle
+中文:
+漂流瓶
+[标题 / title] EN: 19th June 1895
+中文:
+1895年6月19日
+[正文 / body] EN:
+Tom has hung a swing from the old frame on the cliff lawn. It goes out over nothing at all and Wren shrieks every time. I made him promise the ropes are sound. He made me try it. He was right. It is the best seat on the island.
+中文:
+汤姆在悬崖草坪的旧木架上挂了一架秋千。它荡出去，下面什么都没有，雷恩每次都尖叫。我让他保证绳子是结实的。他让我自己试试。他说得对。那是岛上最好的座位。
+
+=== N10  Discovery/Bottles/Bottle 5 ===
+[互动提示 / prompt] EN: Message in a bottle
+中文:
+漂流瓶
+[标题 / title] EN: 8th August 1897
+中文:
+1897年8月8日
+[正文 / body] EN:
+I have started hiding sea glass for Wren to find, ten pieces at a time: green, white, the rare blue. She keeps them in the big jar by the door and counts them every evening. When she finds all ten I tell her the sea has paid its rent.
+中文:
+我开始给雷恩藏海玻璃让她去找，每次十块：绿的、白的，还有难得的蓝的。她把它们放在门边的大罐子里，每天晚上数一遍。等她把十块都找齐了，我就告诉她，大海付清了房租。
+
+=== N11  Discovery/Bottles/Bottle 6 ===
+[互动提示 / prompt] EN: Message in a bottle
+中文:
+漂流瓶
+[标题 / title] EN: 1st October 1904
+中文:
+1904年10月1日
+[正文 / body] EN:
+Our last night at the light. The new keeper comes on Friday's boat. Wren is grown and gone to the mainland. She took the jar. If you are reading this, we were happy here. Sit on the swing at golden hour. Watch the beam. Look for the glass.
+中文:
+我们在灯塔的最后一夜。新的守塔人星期五搭船来。雷恩已经长大，去了大陆。她带走了那个罐子。如果你正在读这封信，那么我们在这里很幸福。黄金时刻去坐坐秋千吧。看看那道光束。找找海玻璃。
+
+=== N12  House Interior/Fireplace Upper East/FP Breast ===
+[互动提示 / prompt] EN: Look at the chimney
+中文:
+看看烟囱
+[标题 / title] EN: Wren's Marks
+中文:
+雷恩的身高线
+[正文 / body] EN:
+On the plaster of the chimney breast there is a pencil line for every birthday, with the date beside it, from the first one at knee height in 1892.
+
+The last line is level with my own forehead. Tom says the chimney will have to be taken down before anyone paints over those marks, and he means it.
+中文:
+烟囱墙的灰泥上，每个生日都有一道铅笔线，旁边写着日期，从1892年齐膝高的第一道开始。
+
+最后一道和我的额头一样高了。汤姆说，谁要想把这些线刷掉，得先把烟囱拆了。他是认真的。
+
+=== N13  House Interior/Furniture/Decor/fishermans_hat ===
+[互动提示 / prompt] EN: Look at the hat
+中文:
+看看帽子
+[标题 / title] EN: The Sou'wester
+中文:
+防水帽
+[正文 / body] EN:
+For storm nights up on the gallery, when the rain comes sideways off the sea and the glass has to be wiped every hour so the beam can get out.
+
+It was yellow once. Twelve winters of salt have made it the colour of old butter.
+中文:
+暴风雨的夜里上灯廊时戴的。那种夜里雨从海上横着打过来，玻璃每个小时都得擦一遍，光束才能照出去。
+
+它原来是黄色的。十二个冬天的盐，把它变成了陈黄油的颜色。
+
+=== N14  House Interior/Furniture/Decor/Keeper's Logbook ===
+[互动提示 / prompt] EN: Read the logbook
+中文:
+阅读日志
+[标题 / title] EN: Keeper's Log, 24th December 1899
+中文:
+守塔日志，1899年12月24日
+[正文 / body] EN:
+Wind north-west, fresh. Lamp lit 3.52pm, glass clean, oil 40 gallons. Two steamers and a brig passed in the night, all well clear.
+
+Christmas Eve. Tom carried in the yule log and Wren hung holly over the clock, which has lost four minutes again. We ate by the fire with the door open to hear the sea.
+
+I have hidden one more piece of sea glass for Wren, somewhere warm. She will not think to look so close to home.
+中文:
+西北风，清劲。下午3点52分点灯，玻璃洁净，存油40加仑。夜里有两艘轮船和一艘双桅帆船经过，都离得很远，一切平安。
+
+平安夜。汤姆搬进了圣诞柴，雷恩在座钟上挂了冬青，那钟又慢了四分钟。我们开着门围着炉火吃饭，好听见海的声音。
+
+我又给雷恩藏了一块海玻璃，藏在一个温暖的地方。她不会想到去离家这么近的地方找。
+
+=== N15  House Interior/Furniture/Decor/Painting01 ===
+[互动提示 / prompt] EN: Look at the picture
+中文:
+看看这幅画
+[标题 / title] EN: The Old Light
+中文:
+旧灯
+[正文 / body] EN:
+The lighthouse as it was before the new lantern went in, when the light was eleven oil lamps and a ring of polished reflectors, and the keeper slept in the tower itself.
+
+Tom keeps it in the kitchen to remind himself, he says, how lucky we are to have a range, a roof that does not leak, and only one hundred and twelve stairs.
+中文:
+这是换装新灯室之前的灯塔。那时的灯是十一盏油灯，配一圈擦得锃亮的反射镜，守塔人就睡在塔里。
+
+汤姆把这幅画挂在厨房里，说是为了提醒自己：我们多幸运，有炉灶，有不漏雨的屋顶，而且只有一百一十二级台阶。
+
+=== N16  House Interior/Furniture/Decor/painting02 ===
+[互动提示 / prompt] EN: Look at the picture
+中文:
+看看这幅画
+[标题 / title] EN: Wren's First Painting
+中文:
+雷恩的第一幅画
+[正文 / body] EN:
+The painter who paid his rent in pictures left a box of colours behind when he went. Wren was seven. She painted the lighthouse from the lawn, very carefully, and gave it a face.
+
+It has hung by the door ever since. Visitors think it is a child's drawing. It is, and it is also the best likeness of the tower in the house.
+中文:
+那位用画抵房租的画家走的时候，留下了一盒颜料。雷恩那年七岁。她站在草坪上，非常仔细地画了这座灯塔，还给它画了一张脸。
+
+从那以后它一直挂在门边。客人们以为那是小孩子的涂鸦。它确实是，可它也是家里画得最像这座塔的一幅。
+
+=== N17  House Interior/Furniture/Decor/painting03 ===
+[互动提示 / prompt] EN: Look at the painting
+中文:
+看看这幅画
+[标题 / title] EN: A Week's Rent
+中文:
+一周的房租
+[正文 / body] EN:
+A painter came out on the supply boat in the summer of 1898 to paint the light. The weather kept him here a week instead of a day.
+
+He had no money, so he paid in pictures. This one is the bay from the cliff path at evening. Tom says he got the colour of the water exactly right and the lighthouse exactly wrong.
+中文:
+1898年夏天，一位画家搭补给船来画这座灯塔。天气把他困在这里一个星期，而不是一天。
+
+他身无分文，就用画来付房租。这一幅画的是傍晚从悬崖小路望去的海湾。汤姆说，他把海水的颜色画得一点不差，把灯塔画得一点不对。
+
+=== N18  House Interior/Furniture/Decor/seadogs_compass ===
+[互动提示 / prompt] EN: Look at the compass
+中文:
+看看罗盘
+[标题 / title] EN: Tom's Compass
+中文:
+汤姆的罗盘
+[正文 / body] EN:
+From his years as mate on the coasting steamers, before the Lights. He says a keeper has no use for a compass, because the lamp is always in the same place.
+
+He still carries it in his waistcoat on the boat to market. Wren swears the needle points to the lighthouse, not to the north.
+中文:
+这是他来守灯塔之前，在沿海轮船上当大副那些年用的。他说守塔人用不着罗盘，因为灯永远在同一个地方。
+
+可他去大陆赶集坐船时，还是把它揣在背心口袋里。雷恩发誓说，指针指的是灯塔，不是北方。
+
+=== N19  House Interior/Furniture/Decor/Ship Model ===
+[互动提示 / prompt] EN: Look at the ship
+中文:
+看看这艘船
+[标题 / title] EN: The Kittiwake
+中文:
+三趾鸥号
+[正文 / body] EN:
+Tom built this model of the schooner that sent a boat ashore to thank us after the storm of '93. It took him the whole of that winter.
+
+The rigging is my best sewing thread. The sails are a pillowcase. The little figure at the wheel is supposed to be Tom, though he says it looks more like the cat.
+中文:
+汤姆照着那艘纵帆船做了这个模型。93年风暴过后，那艘船专门派了一条小船上岸来向我们道谢。这花了他整整一个冬天。
+
+索具用的是我最好的缝纫线，船帆是一只枕套。舵轮旁边那个小人本来是照着汤姆做的，可他说看起来更像家里的猫。
+
+=== N20  House Interior/Furniture/Globe ===
+[互动提示 / prompt] EN: Spin the globe
+中文:
+转动地球仪
+[标题 / title] EN: The Globe
+中文:
+地球仪
+[正文 / body] EN:
+A gift from the Trinity inspector on his visit in 1896, for keeping the best log on the coast.
+
+Wren sticks a pin into every port the passing ships call out: Valparaiso, Bergen, Bombay, Quebec. By the time she was twelve there were more pins in it than there was sea.
+中文:
+1896年领港公会的督察来视察时送的礼物，奖励我们写出了整条海岸最好的日志。
+
+路过的船报出的每一个港口，雷恩都在上面插一根大头针：瓦尔帕莱索、卑尔根、孟买、魁北克。到她十二岁时，上面的针比海还多。
+
+=== N21  House Interior/Furniture/rubber_boots ===
+[互动提示 / prompt] EN: Look at the boots
+中文:
+看看靴子
+[标题 / title] EN: Sea Boots
+中文:
+海靴
+[正文 / body] EN:
+Tom's boots for the rocks and the boat. There is one rule in this house above all others: the boots never, ever cross the rug.
+
+Wren once filled them with crabs. We did not discover this until the morning.
+中文:
+汤姆上礁石、上船穿的靴子。这个家里有一条高于一切的规矩：靴子绝对、绝对不许踩上地毯。
+
+雷恩有一次在里面装满了螃蟹。我们直到第二天早上才发现。
+
+=== N22  House Interior/Furniture/Stove ===
+[互动提示 / prompt] EN: Look at the range
+中文:
+看看炉灶
+[标题 / title] EN: The Range
+中文:
+炉灶
+[正文 / body] EN:
+Porridge every morning, bread on Tuesdays and Fridays, toffee every Christmas Eve. The kettle is never off it.
+
+On the worst nights of winter we pull the chairs right up to it and Tom reads aloud until the candle gutters.
+中文:
+每天早上煮粥，星期二和星期五烤面包，每个平安夜熬太妃糖。水壶从来不离炉子。
+
+冬天最难熬的夜里，我们把椅子拉到炉子跟前，汤姆大声朗读，直到蜡烛快要燃尽。
+
+=== N23  House Interior/Furniture/Trunk01 ===
+[互动提示 / prompt] EN: Open the sea chest
+中文:
+打开海员箱
+[标题 / title] EN: My Sea Chest
+中文:
+我的海员箱
+[正文 / body] EN:
+It came out with me on the voyage and has been everything since: a table, a bench, a hiding place, a boat (according to Wren, aged four).
+
+Now it holds the winter blankets, and Wren's jar of sea glass sits on the lid where she can count it every night.
+中文:
+它跟着我漂洋过海来到这里，从此什么都当过：桌子、长凳、藏东西的地方，还有一条船（这是四岁的雷恩说的）。
+
+现在里面放着冬天的毯子，雷恩的海玻璃罐子就摆在盖子上，她每天晚上都要数一遍。
+
+=== N24  House Interior/Furniture/vintage_grandfather_clock_01 ===
+[互动提示 / prompt] EN: Look at the clock
+中文:
+看看座钟
+[标题 / title] EN: The Long-Case Clock
+中文:
+落地钟
+[正文 / body] EN:
+It came with the cottage and for years it lost four minutes every week, whatever Tom did to it. One winter he took the whole movement apart on the kitchen table, cleaned every wheel with a feather, and put it back together with one screw left over.
+
+It has kept perfect time ever since. Nobody knows what the screw was for. Wren keeps it, and her secrets, in the case behind the pendulum.
+中文:
+它是跟着这间小屋一起来的，好多年里，不管汤姆怎么修，它每星期都要慢四分钟。有一年冬天，他在厨房桌上把整个机芯拆开，用一根羽毛把每个齿轮都清理干净，装回去时多出了一颗螺丝。
+
+从那以后它走得分秒不差。没人知道那颗螺丝是干什么用的。雷恩把它收着，和她的秘密一起，藏在钟摆后面的钟箱里。
+
+=== N25  House Interior/Furniture/WoodCupboard03 ===
+[互动提示 / prompt] EN: Look at the books
+中文:
+看看这些书
+[标题 / title] EN: The Bookcase
+中文:
+书柜
+[正文 / body] EN:
+Tide tables, almanacs, the Admiralty List of Lights, a Bible, a seed catalogue, three volumes of Shakespeare, and one novel that has been read so many times that half of it is now held in with string.
+
+Nobody will admit which of us wore it out.
+中文:
+潮汐表、历书、海军部的《灯标名录》、一本圣经、一本种子目录、三卷莎士比亚，还有一本被读了太多遍的小说，现在一半是靠绳子捆着才没散。
+
+没人承认是谁把它读烂的。
+
+=== N26  House Interior/Furniture/WoodTableSquare01 ===
+[互动提示 / prompt] EN: Look at the table
+中文:
+看看这张桌子
+[标题 / title] EN: The Kitchen Table
+中文:
+厨房的餐桌
+[正文 / body] EN:
+Scrubbed white every morning with sand. Look closely at the corner nearest the stove: T, A and W, cut into the wood with Tom's sailing knife the night we arrived.
+
+The inspector disapproved. Tom told him a table without names on it is just furniture.
+中文:
+每天早上都用沙子擦得发白。仔细看靠近炉灶的那个角：T、A、W，是我们到这里的第一晚，汤姆用他的水手刀刻上去的。
+
+督察很不以为然。汤姆对他说，没有刻上名字的桌子，只能算家具。
+
+=== N27  House Interior/Upper Floor/Furniture/bed ===
+[互动提示 / prompt] EN: Look at the quilt
+中文:
+看看被子
+[标题 / title] EN: The Wedding Quilt
+中文:
+婚礼被
+[正文 / body] EN:
+I stitched it the winter before we married, from the curtains of the house I grew up in. Blue for the parlour, red for the dining room, the check for my father's study.
+
+Wren was born under it, in the great storm of '91, with the lamp still turning above us.
+中文:
+这是我们结婚前那个冬天我缝的，用的是我长大的那座房子里的窗帘。蓝色来自客厅，红色来自饭厅，格子布来自父亲的书房。
+
+雷恩就是在这床被子下出生的，在91年那场大风暴里，头顶上的灯还在转。
+
+=== N28  House Interior/Upper Floor/Furniture/Chart Table ===
+[互动提示 / prompt] EN: Look at the charts
+中文:
+看看海图
+[标题 / title] EN: The Chart Table
+中文:
+海图桌
+[正文 / body] EN:
+Tom's charts of the reef, drawn from forty years of other men's soundings and his own lead line. Every wreck he knows of is marked with a small cross and a date.
+
+There are fewer crosses after 1891 than before. He never says so, but he runs his thumb along that line of years when he thinks no one is watching.
+中文:
+汤姆画的暗礁海图，依据是四十年来别人的测深记录和他自己的测深锤。他知道的每一处沉船，都用一个小十字和日期标出来。
+
+1891年以后的十字比以前少了。他从来不提，可当他以为没人看见时，会用拇指沿着那一排年份慢慢摸过去。
+
+=== N29  House Interior/Upper Floor/Furniture/Drawer01 ===
+[互动提示 / prompt] EN: Open the drawer
+中文:
+打开抽屉
+[标题 / title] EN: Tom's Drawer
+中文:
+汤姆的抽屉
+[正文 / body] EN:
+Spare lamp mantles, a tin of polishing rouge, wick trimmers, two pairs of spectacles neither of which are right, the key to the oil store, and a pipe he gave up in 1895.
+
+He has not smoked it since, but he will not throw it away. He says it keeps the drawer honest.
+中文:
+备用的灯罩，一罐抛光红粉，灯芯剪，两副都不合适的眼镜，油料库的钥匙，还有一支他1895年就戒掉的烟斗。
+
+他再没抽过，可也不肯扔。他说它能让这只抽屉保持诚实。
+
+=== N30  House Interior/Upper Floor/Furniture/Linen Cabinet ===
+[互动提示 / prompt] EN: Open the linen press
+中文:
+打开衣柜
+[标题 / title] EN: The Linen Press
+中文:
+布草柜
+[正文 / body] EN:
+Sheets, pillowcases, the good tablecloth for the inspector, and lavender from the mainland market to keep the damp out of all of it. Salt gets into everything here, even the cupboards.
+
+The top shelf is where Christmas presents go. Wren has known this since she was six, and has politely never looked.
+中文:
+床单、枕套、招待督察用的好桌布，还有从大陆集市买来的薰衣草，用来防潮。这里的盐分什么都能钻进去，连柜子里也不例外。
+
+最上面一层是放圣诞礼物的地方。雷恩六岁就知道了，却很有礼貌地从来没偷看过。
+
+=== N31  House Interior/Upper Floor/Furniture/painting04 ===
+[互动提示 / prompt] EN: Look at the painting
+中文:
+看看这幅画
+[标题 / title] EN: Mother's Picture
+中文:
+母亲的画
+[正文 / body] EN:
+The only thing I brought from home, apart from the clothes I stood up in. It hung over my mother's bed, and now it hangs over ours.
+
+On stormy nights, when the whole house shakes, I look at it and think of a calm field a long way inland.
+中文:
+除了身上穿的衣服，这是我从家里带来的唯一一样东西。它曾挂在我母亲的床头，现在挂在我们的床头。
+
+暴风雨的夜里，整座房子都在摇晃，我就看着它，想起很远很远的内陆，有一片宁静的田野。
+
+=== N32  House Interior/Upper Floor/Furniture/Reading Couch ===
+[互动提示 / prompt] EN: Look at the settee
+中文:
+看看长椅
+[标题 / title] EN: The Old Settee
+中文:
+旧长椅
+[正文 / body] EN:
+It came up the cliff path on four men's shoulders and would not go up the stairs, so Tom took the window out and we hauled it in on a rope like a cow being landed.
+
+Wren learned to read on it. So did I, nearly, the second time, in English, with Tom's finger moving under the words.
+中文:
+它是四个男人扛着上的悬崖小路，可怎么也上不了楼梯，于是汤姆拆下窗户，我们用绳子把它吊进来，像从船上卸一头牛。
+
+雷恩就是在这上面学会认字的。我也差不多，第二次学，学的是英语，汤姆的手指在字下面一行行移动。
+
+=== N33  House Interior/Upper Floor/Furniture/Tom's Notebook ===
+[互动提示 / prompt] EN: Read Tom's notebook
+中文:
+阅读汤姆的笔记本
+[标题 / title] EN: The Blocked Window
+中文:
+被堵上的窗户
+[正文 / body] EN:
+There was once a little window in the west gable, right where the chimney runs. It was bricked up a hundred years ago, when they taxed every window in a house.
+
+Tom rebuilt the flue in '92 and put a new window in, beside the chimney where the tax man would never notice. Wren is certain a ghost lives behind the old bricks. It only ever says goodnight.
+中文:
+西边山墙上，烟囱经过的地方，曾经有一扇小窗。一百年前，人们按窗户数量征税，它就被砖封上了。
+
+92年汤姆重修烟道时，在烟囱旁边、收税的人永远注意不到的地方，开了一扇新窗。雷恩坚信那些旧砖后面住着一个幽灵。它只会说晚安。
+
+=== N34  House Interior/Upper Floor/Furniture/Upper Bookshelf ===
+[互动提示 / prompt] EN: Look at the books
+中文:
+看看这些书
+[标题 / title] EN: The Lesson Shelf
+中文:
+课本书架
+[正文 / body] EN:
+Wren's schoolbooks, all second-hand from the mainland: grammar, arithmetic, Mr Smith's geography, a Latin primer nobody could teach her, and a book of birds with every one she has seen ticked in pencil.
+
+We did lessons at the kitchen table between the lamp watches. She passed the county examination at fourteen, top of the list, and Tom lit every candle in the house.
+中文:
+雷恩的课本，全是从大陆买来的旧书：语法、算术、史密斯先生的地理、一本谁也教不了她的拉丁文入门，还有一本鸟类图鉴，她见过的每一种鸟都用铅笔打了勾。
+
+我们在守灯的间隙，在厨房桌上上课。她十四岁通过了郡里的考试，名列榜首，汤姆把家里所有的蜡烛都点上了。
+
+=== N35  House Interior/Upper Floor/Furniture/WoodCupboard02 ===
+[互动提示 / prompt] EN: Open the cupboard
+中文:
+打开柜子
+[标题 / title] EN: The Oilskin Cupboard
+中文:
+油布雨衣柜
+[正文 / body] EN:
+Two sets of oilskins, three sou'westers, sea boots for Tom and the small pair Wren outgrew, a coil of good rope and the brass telescope.
+
+When the weather turns, we can all be dressed and out on the gallery in under four minutes. Tom has timed us. Wren beat us both.
+中文:
+两套油布雨衣，三顶防水帽，汤姆的海靴和雷恩穿不下的那双小靴子，一卷好绳子，还有那架黄铜望远镜。
+
+天气一变，我们三个人不到四分钟就能穿戴整齐、站到灯廊上。汤姆计过时。雷恩比我们俩都快。
+
+=== N36  House Interior/Upper Floor/Furniture/Wren's Chest ===
+[互动提示 / prompt] EN: Look in the chest
+中文:
+看看箱子里
+[标题 / title] EN: Wren's Chest
+中文:
+雷恩的箱子
+[正文 / body] EN:
+Wren's treasures: a whelk shell the size of her fist, a gull's feather, a brass button from the schooner's boat crew, a pressed sea-pink, and a bundle of letters tied with blue thread.
+
+The letters are from the boy on the supply boat. I am not supposed to know about them. Tom is not supposed to know at all.
+中文:
+雷恩的宝贝：一个拳头大的蛾螺壳，一根海鸥羽毛，一颗三趾鸥号船员制服上的铜扣子，一朵压干的海石竹，还有一沓用蓝线扎起来的信。
+
+那些信是补给船上那个男孩写的。我本不该知道。汤姆就更不该知道了。
+
+=== N37  House Interior/Upper Floor/Furniture/Writing Desk ===
+[互动提示 / prompt] EN: Look at the desk
+中文:
+看看书桌
+[标题 / title] EN: Ada's Desk
+中文:
+艾达的书桌
+[正文 / body] EN:
+Every Sunday night I write to my sister in Leith. Eleven years of letters, and she has kept every one, which is more than the lighthouse service can say for my requisitions for lamp wicks.
+
+The ink is made from oak galls Tom brings back from the mainland. The blot on the corner is Wren's, aged five, who wanted to write to her aunt too and wrote mostly on the desk.
+中文:
+每个星期天晚上，我都给住在利斯的姐姐写信。十一年的信，她每一封都留着，这比灯塔管理处对待我申领灯芯的报告要上心多了。
+
+墨水是用汤姆从大陆带回的栎五倍子做的。角上那块墨渍是雷恩五岁时留下的，她也想给姨妈写信，结果大多写在了桌子上。
+
+=== N38  Lighthouse Stories/Barometer ===
+[互动提示 / prompt] EN: Tap the barometer
+中文:
+敲敲晴雨表
+[标题 / title] EN: The Glass
+中文:
+晴雨表
+[正文 / body] EN:
+Tom taps it at every change of watch and writes the reading in the log. Below the needle there is a tiny pencil tick, far down past STORMY, with 2.XI.93 written beside it. The glass has never fallen so low before or since. Wren says the needle was trying to escape out of the bottom of the case.
+中文:
+每次换班，汤姆都要敲一敲它，把读数记进日志。指针下方有一道小小的铅笔记号，远远低过“风暴”二字，旁边写着 2.XI.93。不论之前还是之后，它再没有降得那么低过。雷恩说，那天指针是想从表盒底下逃出去。
+
+=== N39  Lighthouse Stories/Bunk ===
+[互动提示 / prompt] EN: Look at the bunk
+中文:
+看看床铺
+[标题 / title] EN: The Relief Bunk
+中文:
+替班床铺
+[正文 / body] EN:
+Regulations say a keeper on watch must never sleep, and that this bunk is for the relief keeper, of whom there is none. Tom says he only sits on it to pull his boots on. The dent in the pillow says otherwise. On the worst winter nights I bring Wren up with a hot brick, and she sleeps here to the sound of the clockwork turning the lens.
+中文:
+按规定，值班的守塔人绝不能睡觉，这张床是给替班守塔人睡的，可这里根本没有替班的人。汤姆说他只是坐在上面穿靴子。枕头上的凹痕可不这么说。冬天最难熬的夜里，我会抱着一块热砖带雷恩上来，她就睡在这儿，听着发条转动透镜的声音入眠。
+
+=== N40  Lighthouse Stories/Empty Bottles ===
+[互动提示 / prompt] EN: Look at the bottles
+中文:
+看看瓶子
+[标题 / title] EN: Empty Bottles
+中文:
+空瓶子
+[正文 / body] EN:
+Every empty bottle that comes out on the supply boat ends up on this shelf, washed and corked and waiting. When I have something to say that nobody on this island should hear yet, I write it down, seal it in, and give it to the ebb tide off the west rocks. Most of them sink, I expect. Some, I hope, wash up somewhere kind. If you have found one, you know now where they come from.
+中文:
+补给船送来的每一个空瓶，最后都摆在这层架子上，洗净、塞好软木塞，等着。当我有什么话还不能让岛上任何人听见时，我就写下来，封进瓶里，在退潮时从西边的礁石交给大海。我想，大多数都沉了。但愿有几个能漂到善良的地方。如果你捡到过一个，现在你知道它们是从哪儿来的了。
+
+=== N41  Lighthouse Stories/Flag Locker ===
+[互动提示 / prompt] EN: Open the chest
+中文:
+打开箱子
+[标题 / title] EN: The Flag Locker
+中文:
+信号旗柜
+[正文 / body] EN:
+The signal flags, every letter of the code in wool bunting, folded in order. Wren learned the whole alphabet before she could spell, and by twelve she could talk to passing ships faster than Tom. Lately she has been running up very short messages whenever the supply boat comes in. The boy on board always answers. I have decided not to learn the code.
+中文:
+信号旗，信号码里的每一个字母都是一面羊毛旗布，按顺序叠好。雷恩还不会拼写的时候就学会了整套字母，十二岁时她和过往船只“说话”比汤姆还快。最近每当补给船进港，她都会升起几面很短的信息。船上那个男孩总会回应。我决定不去学这套信号码。
+
+=== N42  Lighthouse Stories/Life Ring ===
+[互动提示 / prompt] EN: Look at the life ring
+中文:
+看看救生圈
+[标题 / title] EN: The Life Ring
+中文:
+救生圈
+[正文 / body] EN:
+Board of Trade pattern: cork in red and white canvas, with forty fathoms of line. For two years it hung here and was used by nobody but Wren, as a hoop. On the night of the great storm it went missing from its hook, and was back by morning, wet through, with a long rope burn across the canvas. Nobody in this house will say where it went. Tom repainted it. He left the burn.
+中文:
+贸易委员会的规格：红白帆布包着软木，配四十英寻长的绳索。两年来它一直挂在这里，除了雷恩拿它当滚圈玩，谁也没用过。大风暴那一夜，它从钩子上不见了，到早上又回来了，湿透了，帆布上多了一道长长的绳索勒痕。这家里没有人肯说它去了哪儿。汤姆把它重新漆了一遍，却留下了那道勒痕。
+
+=== N43  Lighthouse Stories/Light Time ===
+[互动提示 / prompt] EN: Look at the clock
+中文:
+看看座钟
+[标题 / title] EN: Light Time
+中文:
+灯塔时间
+[正文 / body] EN:
+The service clock. The lamp is lit at sunset by this clock and put out at sunrise by this clock, and the log records both to the minute. The clock in the cottage is set from this one every Sunday by Wren, who climbs all the way up to do it and calls it 'fetching the time'.
+中文:
+这是公务时钟。日落时按它点灯，日出时按它熄灯，两个时刻都精确到分钟记进日志。小屋里的钟每个星期天都由雷恩照着它来校准，她一路爬上来，管这叫“取时间”。
+
+=== N44  Lighthouse Stories/Oil Store ===
+[互动提示 / prompt] EN: Open the oil store
+中文:
+打开油料柜
+[标题 / title] EN: The Oil Store
+中文:
+油料柜
+[正文 / body] EN:
+Colza oil at first, then paraffin from '95: forty gallons in the tank, and every pint of it signed for. The inspector reads the oil book before he reads the log, because oil does not lie. The key lives in Tom's drawer in the cottage, and the smell lives in everything we own.
+中文:
+起初烧的是菜籽油，九五年起改用煤油：油箱里四十加仑，每一品脱都要签字登记。督察总是先看油料簿，再看日志，因为油不会撒谎。钥匙放在小屋里汤姆的抽屉里，而那股气味，渗进了我们所有的东西。
+
+=== N45  Lighthouse Stories/Painter's Second Try ===
+[互动提示 / prompt] EN: Look at the painting
+中文:
+看看画
+[标题 / title] EN: The Painter's Second Try
+中文:
+画家的第二次尝试
+[正文 / body] EN:
+The painter from the summer of '98 heard Tom say he had got the lighthouse exactly wrong. On his last morning he walked out to the north point and painted it again, cottage and all, and at Christmas it came over on the supply boat with a note: 'Is this better?' Tom hung it where he can see it from the stove. He has never said yes. He has never taken it down.
+中文:
+九八年夏天来的那位画家，听见汤姆说他把灯塔画得一塌糊涂。临走那天早上，他走到北角，连同小屋一起又画了一遍。圣诞节时，这幅画随补给船送来，附着一张字条：“这回好些了吗？”汤姆把它挂在从火炉边看得见的地方。他从没说过好。也从没把它取下来。
+
+=== N46  Lighthouse Stories/Telescope ===
+[互动提示 / prompt] EN: Look through the telescope
+中文:
+用望远镜眺望
+[标题 / title] EN: The Service Glass
+中文:
+公务望远镜
+[正文 / body] EN:
+Issued by Trinity House, with a brass plate saying it must never leave the watch room. Tom checks every passing sail against the Shipping Gazette. On the night of the great storm it was through this glass, at twenty to nine, that he saw a schooner's lights close under the reef. What he did next is not in the log.
+中文:
+这是领港公会配发的，铜牌上写着：不得离开值班室。汤姆把每一张经过的帆都和《航运公报》核对一遍。大风暴那一夜，八点四十分，正是透过这具望远镜，他看见一艘纵帆船的灯火贴近了暗礁。他接下来做了什么，日志里没有写。
+
+=== N47  Lighthouse Stories/The Lens ===
+[互动提示 / prompt] EN: Look at the lens
+中文:
+看看透镜
+[标题 / title] EN: The Eye
+中文:
+眼睛
+[正文 / body] EN:
+Made in Paris, packed in straw, carried up the cliff in eleven crates and put together by a Frenchman who spoke no English and needed none. Two great bullseyes and rings of prisms, turned by clockwork that must be wound every forty minutes all night long. It throws the light of one small lamp twenty miles out to sea. Wren calls it the eye. On the night of the great storm, it did not blink once.
+中文:
+巴黎制造，裹在稻草里，分装十一个木箱扛上悬崖，由一个不会说英语、也用不着说英语的法国人组装起来。两只巨大的牛眼透镜，外面一圈圈棱镜，靠发条转动，整夜每四十分钟就得上一次弦。它能把一盏小灯的光投到二十英里外的海上。雷恩叫它“眼睛”。大风暴那一夜，它一次也没有眨过。
+
+=== N48  Lighthouse Stories/Tower Stove ===
+[互动提示 / prompt] EN: Look at the stove
+中文:
+看看火炉
+[标题 / title] EN: The Tower Stove
+中文:
+塔里的火炉
+[正文 / body] EN:
+A keeper climbs a hundred and twelve stairs with frozen hands only once. After that first winter Tom carried this little stove up in pieces, and now there is always a kettle halfway up the tower and cocoa at two in the morning. I bring the milk. He brings his opinions about the milk.
+中文:
+守塔人冻着双手爬一百一十二级台阶，这种事一辈子只干一次。第一个冬天过后，汤姆把这只小火炉拆成零件扛了上来。从此塔的半腰总有一壶水，凌晨两点总有热可可。牛奶我来带，对牛奶的意见他来带。
+
+=== N49  Lighthouse Stories/Trimming Bench ===
+[互动提示 / prompt] EN: Look at the workbench
+中文:
+看看工作台
+[标题 / title] EN: The Trimming Bench
+中文:
+修剪台
+[正文 / body] EN:
+Wick scissors, chimney glasses, a pot of rouge, chamois leathers, and the brass, which must be polished every morning before breakfast whether or not anyone will ever see it. Tom says a lighthouse is mostly cleaning. Wren learned to trim a wick here at six, standing on a crate, and does it better than either of us. Nobody tells the inspector.
+中文:
+灯芯剪、灯罩玻璃、一罐抛光红粉、几块麂皮，还有那些铜件，不管有没有人看得见，每天早饭前都得擦亮。汤姆说，守灯塔大半就是打扫。雷恩六岁时就站在木箱上，在这里学会了修剪灯芯，剪得比我们俩都好。这事谁也没告诉督察。
